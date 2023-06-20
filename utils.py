@@ -58,7 +58,7 @@ def class_freqs(tweets, ys):
     if type(ys) == list:
         yslist = ys
     else:
-        yslist = np.squeeze(ys).tolist())
+        yslist = np.squeeze(ys).tolist()
 
     # Start with an empty dictionary and populate it by looping over all tweets
     # and over all processed words in each tweet.
